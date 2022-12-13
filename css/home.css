@@ -30,7 +30,7 @@ button {
   padding: 20px 25px;
 }
 .navBar .icon a {
-  color: black;
+  color: #213053;
   text-decoration: none;
   font-size: 24px;
   font-weight: 600;
@@ -48,7 +48,7 @@ button {
 }
 .navBar .items ul li a {
   display: block;
-  color: black;
+  color: #213053;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -68,14 +68,17 @@ button {
 .heroContainer .heroArea .content h1 {
   font-size: 80px;
   line-height: 85px;
+  color: #213053;
 }
 .heroContainer .heroArea .content p:nth-child(2) {
   font-size: 17px;
   padding: 20px 0;
+  color: #213053;
 }
 .heroContainer .heroArea .content p:nth-child(4) {
   font-size: 15px;
   margin-top: 10px;
+  color: #213053;
 }
 .heroContainer .heroArea .content button {
   font-size: 17px;
@@ -114,10 +117,12 @@ button {
   font-size: 24px;
   font-weight: 600;
   padding: 20px 0;
+  color: #213053;
 }
 .featuresContainer .feature p {
   font-size: 17px;
   font-weight: 400;
+  color: #213053;
 }
 
 /* Ratings */
@@ -135,11 +140,13 @@ button {
   line-height: 58px;
   font-weight: 600;
   padding-bottom: 15px;
+  color: #213053;
 }
 .ratingContainer .contentRating p {
   font-size: 17px;
   line-height: 30px;
   font-weight: 500;
+  color: #213053;
 }
 .ratingContainer .userRating {
   width: 40%;
@@ -150,10 +157,12 @@ button {
 .ratingContainer .userRating h2 {
   font-size: 60px;
   font-weight: 900;
+  color: #ffffff;
 }
 .ratingContainer .userRating p {
   font-size: 17px;
   font-weight: bold;
+  color: #ffffff;
 }
 .ratingContainer .userRating .rating {
   background: #1787fc;
@@ -176,7 +185,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 80px;
+  gap: 100px;
+  padding: 100px;
 }
 .contentBackground .leftImg {
   width: 40%;
@@ -188,8 +198,8 @@ button {
 .contentBackground .content {
   width: 40%;
   background: #ffffff;
-  padding: 20px 80px 20px 20px;
-  border-radius: 20px;
+  padding: 30px 60px;
+  border-radius: 50px;
   position: relative;
 }
 .contentBackground .cube {
@@ -198,24 +208,27 @@ button {
   width: 150px;
   height: 150px;
   background-size: cover;
-  right: -75px;
-  top: 100px;
+  right: -70px;
+  top: 150px;
 }
 .contentBackground .content h3 {
   font-size: 48px;
   font-weight: 600;
   line-height: 58px;
   margin-bottom: 15px;
+  color: #213053;
 }
 .contentBackground .content p {
   font-size: 17px;
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 30px;
+  color: #213053;
 }
 .contentBackground .content button {
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 15px;
+  font-size: 17px;
   font-size: 16px;
   box-shadow: 0px 26px 46px rgba(241, 139, 98, 0.500328);
 }
@@ -233,6 +246,7 @@ button {
   font-size: 68px;
   padding: 30px 0;
   font-weight: 600;
+  color: #213053;
 }
 .workContainer .allWorks {
   display: flex;
@@ -242,12 +256,13 @@ button {
   text-align: center;
 }
 .workContainer .allWorks .singleWork img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   padding-bottom: 25px;
 }
 .workContainer .allWorks .singleWork p {
   font-size: 25px;
+  color: #213053;
 }
 
 /* Testimonial */
@@ -263,10 +278,12 @@ button {
 .testimonialContainer .testimonialTitle h1 {
   tab-size: 40px;
   font-weight: 600;
+  color: #213053;
 }
 .testimonialContainer .testimonialTitle p {
   tab-size: 17px;
   font-weight: 500;
+  color: #213053;
 }
 .testimonialContainer .testimonialItems {
   display: flex;
@@ -284,10 +301,12 @@ button {
   font-size: 21px;
   font-weight: 900;
   padding: 20px 0;
+  color: #213053;
 }
 .testimonialContainer .testimonialItems .singleItem h6 {
   font-size: 21px;
   font-weight: 900;
+  color: #213053;
 }
 
 /* Footer */
@@ -297,12 +316,24 @@ button {
   align-items: center;
   padding: 30px 0;
 }
-.featuresContainer .offShare {
+.footerContainer .offShare h1 {
   font-size: 40px;
   font-weight: 600;
+  color: #213053;
+}
+.footerContainer .company h4,
+p {
+  margin-bottom: 15px;
+  color: #213053;
+}
+.footerContainer .product h4,
+p {
+  margin-bottom: 15px;
+  color: #213053;
 }
 .footerContainer .newSletter h4 {
   margin-bottom: 15px;
+  color: #213053;
 }
 .footerContainer .newSletter .newSletterInput {
   background-color: #e6eaf4;
@@ -313,5 +344,24 @@ button {
   background: #ffffff;
   border: none;
   border-radius: 10px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #213053;
+}
+.footerContainer .newSletter .newSletterInput button {
+  font-size: 15px;
+  font-weight: 700;
+}
+.footerContainer .newSletter .newSletterInput .inputArea {
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
   padding: 10px;
+  color: #213053;
+}
+.footerContainer .newSletter .newSletterInput p {
+  font-size: 15px;
+  font-weight: 900;
+  color: #213053;
 }
