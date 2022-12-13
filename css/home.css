@@ -15,6 +15,7 @@ button {
   padding: 10px 15px;
   border-radius: 15px;
   color: #ffffff;
+  box-shadow: 0px 4px 10px #ff7139;
 }
 /*  Hero Area Container start   */
 .heroContainer {
@@ -37,9 +38,13 @@ button {
 .navBar .items ul {
   list-style-type: none;
   overflow: hidden;
+  padding: 5px 0;
 }
 .navBar .items ul li {
   display: inline-block;
+}
+.navBar .items ul button {
+  margin: 5px 15px;
 }
 .navBar .items ul li a {
   display: block;
@@ -75,6 +80,7 @@ button {
 .heroContainer .heroArea .content button {
   font-size: 17px;
   font-weight: 500;
+  box-shadow: 0px 26px 46px rgba(241, 139, 98, 0.500328);
 }
 .heroContainer .heroArea .content button img {
   height: 12px;
@@ -152,11 +158,13 @@ button {
 .ratingContainer .userRating .rating {
   background: #1787fc;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 25px;
   width: 150px;
+  box-shadow: 0px 6px 0px rgba(23, 135, 252, 0.647591);
 }
 .ratingContainer .userRating div:last-child {
   background: #213053;
+  box-shadow: 0px 6px 0px rgba(33, 48, 83, 0.65);
 }
 
 /* Content */
@@ -190,16 +198,26 @@ button {
   width: 150px;
   height: 150px;
   background-size: cover;
-  right: 0;
+  right: -75px;
   top: 100px;
 }
 .contentBackground .content h3 {
   font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  margin-bottom: 15px;
+}
+.contentBackground .content p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
 .contentBackground .content button {
   font-weight: bold;
   border-radius: 15px;
   font-size: 16px;
+  box-shadow: 0px 26px 46px rgba(241, 139, 98, 0.500328);
 }
 .contentBackground .content button img {
   height: 12px;
@@ -279,21 +297,21 @@ button {
   align-items: center;
   padding: 30px 0;
 }
-.featuresContainer .offShare{
+.featuresContainer .offShare {
   font-size: 40px;
   font-weight: 600;
 }
-.footerContainer .newSletter h4{
+.footerContainer .newSletter h4 {
   margin-bottom: 15px;
 }
-.footerContainer .newSletter .newSletterInput{
-  background-color: #E6EAF4;
+.footerContainer .newSletter .newSletterInput {
+  background-color: #e6eaf4;
   padding: 15px;
   border-radius: 15px;
 }
-.footerContainer .newSletter .newSletterInput #email{
-  background: #ffffff ;
+.footerContainer .newSletter .newSletterInput #email {
+  background: #ffffff;
   border: none;
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: 10px;
 }
